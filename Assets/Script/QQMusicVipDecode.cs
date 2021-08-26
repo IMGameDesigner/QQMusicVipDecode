@@ -44,6 +44,7 @@ namespace DefaultNamespace
             catch (Exception ex)
             {
                 Debug.LogError(ex);
+                doMain.log += ex;
             }
 
             
